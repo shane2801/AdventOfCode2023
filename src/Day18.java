@@ -91,7 +91,6 @@ public class Day18{
     public static List<Long> createCoordinateL(long x, long y){
         return new ArrayList<>(){{ add(x);add(y);}};
     }
-
     // 0 means R, 1 means D, 2 means L, and 3 means U.
     public static String getDirection(String d){
         switch (d) {
